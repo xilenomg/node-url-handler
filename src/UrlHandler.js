@@ -124,7 +124,7 @@ UrlHandler.prototype.setAnchor = function(anchor) {
 };
 
 UrlHandler.prototype.printURL = function() {
-    return this._protocol + '://' + this._subdomain + '.' + this._domain + '/' + this._path + '?'.this.query;
+    return this._protocol + '://' + this._subdomain + '.' + this._domain + (this._path ? this._path : '') + (this._query ? '?' + this._query : '') + (this._anchor ? '#' + this._anchor : '');
 };
 
 module.exports = UrlHandler;
