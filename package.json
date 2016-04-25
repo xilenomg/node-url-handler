@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "name": "node-url-handler",
+  "description": "This handler is helpful to work with URL as STRING",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xilenomg/node-url-handler.git"
+  },
+  "keywords": [
+    "node",
+    "url",
+    "handler"
+  ],
+  "author": "Luis Felipe Corrêa Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xilenomg/node-url-handler/issues"
+  },
+  "homepage": "https://github.com/xilenomg/node-url-handler#readme"
+}
